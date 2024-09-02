@@ -22,7 +22,21 @@ const TopButtons = ({setQuery}) => {
         {
             id:5,
             title:"Russia"
+        },
+        {
+            id:6,
+            title:"Rome"
+        },
+        {
+            id:7,
+            title:"Sydney"
+        },
+        {
+            id:8,
+            title:"Tokyo"
         }
+
+
     ];
 
   return (
