@@ -44,7 +44,7 @@ function TemperatureAndDetails ({weather:{
       <div className="flex flex-row items-center justify-center space-x-2 text-black text-sm py-3">
         <UilSun />
         <p className="font-light">
-          Rise:{" "}
+          Sunrise:{" "}
           <span className="font-medium ml-1">
             {formatToLocalTime(sunrise, timezone, "hh:mm a")}
           </span>
@@ -53,7 +53,7 @@ function TemperatureAndDetails ({weather:{
 
         <UilSunset />
         <p className="font-light">
-          Set:{" "}
+          Sunset:{" "}
           <span className="font-medium ml-1">
             {formatToLocalTime(sunset, timezone, "hh:mm a")}
           </span>
